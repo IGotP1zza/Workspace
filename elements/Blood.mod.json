@@ -1,0 +1,54 @@
+{
+  "_fv": 34,
+  "_type": "fluid",
+  "definition": {
+    "name": "Blood",
+    "bucketName": "Bucket O' Blood",
+    "textureStill": "blood_still",
+    "textureFlowing": "blood_flow",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 7,
+    "levelDecrease": 3,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CUSTOM:Blooddrip"
+    },
+    "flowStrength": 0.5,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "CUSTOM:PizzasTab"
+    },
+    "emptySound": {
+      "value": "item.bucket.empty"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [
+      "It's Blood!"
+    ],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 4,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BloodFields"
+      }
+    ]
+  }
+}

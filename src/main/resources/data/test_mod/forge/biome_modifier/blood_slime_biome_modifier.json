@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "test_mod:blood_fields",
+  "spawners": {
+    "type": "test_mod:blood_slime",
+    "weight": 14,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
