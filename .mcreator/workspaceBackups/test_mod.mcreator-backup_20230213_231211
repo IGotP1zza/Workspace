@@ -74,6 +74,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_sprout"
+    },
+    {
+      "name": "Smallflowers",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallflowers"
     }
   ],
   "variable_elements": [],
@@ -81,7 +89,7 @@
   "language_map": {
     "en_us": {
       "item.test_mod.blood_bucket": "Bucket O\u0027 Blood",
-      "itemGroup.tabpizzas_tab": "Pizzas Tab",
+      "itemGroup.tabpizzas_tab": "Pizza\u0027s Tab",
       "block.test_mod.blood": "Blood",
       "item.test_mod.blood_slime_spawn_egg": "Blood Slime Spawn Egg",
       "biome.test_mod.blood_fields": "Blood Fields",

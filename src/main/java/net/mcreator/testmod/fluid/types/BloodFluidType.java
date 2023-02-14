@@ -14,7 +14,7 @@ import java.util.function.Consumer;
 public class BloodFluidType extends FluidType {
 	public BloodFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D)
-				.sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
+				.viscosity(1050).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
 				.sound(SoundActions.BUCKET_EMPTY, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty")))
 				.sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
