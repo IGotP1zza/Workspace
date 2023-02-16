@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloody:blocks/congealed_blood",
+    "up": "bloody:blocks/congealed_blood",
+    "north": "bloody:blocks/congealed_blood",
+    "east": "bloody:blocks/congealed_blood",
+    "south": "bloody:blocks/congealed_blood",
+    "west": "bloody:blocks/congealed_blood",
+    "particle": "bloody:blocks/congealed_blood"
+  },
+  "render_type": "cutout"
+}

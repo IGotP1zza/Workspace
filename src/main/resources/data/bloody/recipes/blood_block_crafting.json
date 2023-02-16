@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bloody:blood_ball"
+    },
+    {
+      "item": "bloody:blood_ball"
+    },
+    {
+      "item": "bloody:blood_ball"
+    },
+    {
+      "item": "bloody:blood_ball"
+    }
+  ],
+  "result": {
+    "item": "bloody:congealed_blood",
+    "count": 1
+  }
+}

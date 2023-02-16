@@ -3,14 +3,14 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="test_mod"
+modId="bloody"
 version="1.0.0"
-displayName="Test Mod"
+displayName="Bloody Hell"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="ikill, MCreator"
+authors="I_Got_P1zza, MCreator"
 
-[[dependencies.test_mod]]
+[[dependencies.bloody]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

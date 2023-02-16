@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bloody:blood_fields",
+  "features": "bloody:blood",
+  "step": "lakes"
+}

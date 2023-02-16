@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "test_mod:blood_fields",
-  "features": "test_mod:blood_sprout",
-  "step": "vegetal_decoration"
-}

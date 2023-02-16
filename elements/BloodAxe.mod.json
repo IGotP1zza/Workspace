@@ -1,0 +1,37 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "blod_axe",
+    "customModelName": "Normal",
+    "name": "Blood Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:PizzasTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 13.0,
+    "attackSpeed": 0.8,
+    "enchantability": 0,
+    "damageVsEntity": 8.5,
+    "usageCount": 131,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BloodBall"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BloodAxeRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "BloodAxeLivingEntityIsHitWithTool"
+    }
+  }
+}

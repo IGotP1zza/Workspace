@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bloody:blocks/blood_sprout",
+    "particle": "bloody:blocks/blood_sprout"
+  },
+  "render_type": "cutout"
+}
