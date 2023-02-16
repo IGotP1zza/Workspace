@@ -24,7 +24,7 @@ public class BloodAxeRightclickedProcedure {
 		}
 		if (entity instanceof LivingEntity _entity)
 			_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 1));
-		BloodyMod.queueServerWork(5, () -> {
+		BloodyMod.queueServerWork(1, () -> {
 			itemstack.getOrCreateTag().putBoolean("blood_rage", (true));
 			BloodyMod.queueServerWork(60, () -> {
 				itemstack.getOrCreateTag().putBoolean("blood_rage", (false));

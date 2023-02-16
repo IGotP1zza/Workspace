@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "bloody:blood_ball"
     },
@@ -29,5 +28,6 @@
   },
   "rewards": {
     "experience": 100
-  }
+  },
+  "parent": "minecraft:adventure/root"
 }

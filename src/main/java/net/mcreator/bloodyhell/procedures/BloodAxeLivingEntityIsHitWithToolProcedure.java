@@ -39,7 +39,7 @@ public class BloodAxeLivingEntityIsHitWithToolProcedure {
 			}
 		} else {
 			if (itemstack.getOrCreateTag().getBoolean("blood_rage") == true) {
-				entity.setDeltaMovement(new Vec3(0, 0, 0));
+				entity.setDeltaMovement(new Vec3(0, 1.2, 0));
 			}
 		}
 	}

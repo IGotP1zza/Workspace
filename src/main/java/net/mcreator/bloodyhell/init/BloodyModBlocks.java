@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.bloodyhell.block.LiquitSingularityBlock;
 import net.mcreator.bloodyhell.block.CongealedBloodBlock;
 import net.mcreator.bloodyhell.block.BloodSproutBlock;
 import net.mcreator.bloodyhell.block.BloodBlock;
@@ -20,4 +21,5 @@ public class BloodyModBlocks {
 	public static final RegistryObject<Block> BLOOD = REGISTRY.register("blood", () -> new BloodBlock());
 	public static final RegistryObject<Block> BLOOD_SPROUT = REGISTRY.register("blood_sprout", () -> new BloodSproutBlock());
 	public static final RegistryObject<Block> CONGEALED_BLOOD = REGISTRY.register("congealed_blood", () -> new CongealedBloodBlock());
+	public static final RegistryObject<Block> LIQUIT_SINGULARITY = REGISTRY.register("liquit_singularity", () -> new LiquitSingularityBlock());
 }

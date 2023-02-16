@@ -11,7 +11,7 @@ import net.mcreator.bloodyhell.entity.BloodSlimeEntity;
 
 public class BloodSlimeRenderer extends MobRenderer<BloodSlimeEntity, SlimeModel<BloodSlimeEntity>> {
 	public BloodSlimeRenderer(EntityRendererProvider.Context context) {
-		super(context, new SlimeModel(context.bakeLayer(ModelLayers.SLIME)), 0.5f);
+		super(context, new SlimeModel(context.bakeLayer(ModelLayers.SLIME)), 0.25f);
 	}
 
 	@Override

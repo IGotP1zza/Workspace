@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "O",
+    "S"
+  ],
+  "key": {
+    "O": {
+      "item": "bloody:congealed_blood"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bloody:congealed_sword",
+    "count": 1
+  }
+}
