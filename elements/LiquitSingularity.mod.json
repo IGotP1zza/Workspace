@@ -4,8 +4,8 @@
   "definition": {
     "name": "Liquit Singularity",
     "bucketName": "Liquit Singularity Bucket",
-    "textureStill": "singularity_texture",
-    "textureFlowing": "singularity_texture",
+    "textureStill": "singularit_testure",
+    "textureFlowing": "singularit_testure",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,
@@ -15,7 +15,7 @@
     "dripParticle": {
       "value": "EXPLOSION_NORMAL"
     },
-    "flowStrength": -2.0,
+    "flowStrength": -3.0,
     "luminosity": 1,
     "density": 22588,
     "viscosity": 1059,
